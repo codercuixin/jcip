@@ -6,6 +6,10 @@ import java.util.concurrent.CountDownLatch;
  * * @Author: cuixin
  * * @Date: 2019/9/11 16:44
  * 简单的锁顺序死锁。
+ * 查看线程转储Thread Dump信息
+ * Unix: kill -3 或者 Ctrl-\
+ * Windows: Ctrl-Break
+ * IDEA: Debug时的'Get Thread Dump' 摄像头图标
  */
 public class LeftRightDeadLock {
     private final Object left = new Object();

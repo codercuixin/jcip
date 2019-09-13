@@ -10,6 +10,7 @@ import java.util.Set;
 /**
  * * @Author: cuixin
  * * @Date: 2019/9/12 17:20
+ * 通过公开调用（Open Call）来避免在相互协作的对象之间产生死锁
  * 1处，2处，每次都获取一个锁
  */
 public class CooperatingNoDeadLock {

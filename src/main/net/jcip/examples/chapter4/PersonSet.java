@@ -4,9 +4,7 @@ import net.jcip.annotations.GuardBy;
 import net.jcip.annotations.ThreadSafe;
 
 import java.util.HashSet;
-import java.util.Hashtable;
 import java.util.Set;
-import java.util.Vector;
 
 /**
  * * @Author: cuixin

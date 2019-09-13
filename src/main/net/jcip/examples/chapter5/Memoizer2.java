@@ -1,7 +1,5 @@
 package net.jcip.examples.chapter5;
 
-import net.jcip.annotations.GuardBy;
-
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 

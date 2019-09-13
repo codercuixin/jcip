@@ -1,7 +1,5 @@
 package net.jcip.examples.chapter5;
 
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-
 import java.util.concurrent.CountDownLatch;
 
 /**

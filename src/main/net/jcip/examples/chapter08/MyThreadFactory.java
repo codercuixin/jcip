@@ -1,6 +1,5 @@
 package net.jcip.examples.chapter08;
 
-import javax.management.relation.RoleUnresolved;
 import java.util.concurrent.*;
 
 /**

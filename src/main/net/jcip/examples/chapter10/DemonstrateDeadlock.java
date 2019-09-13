@@ -1,7 +1,5 @@
 package net.jcip.examples.chapter10;
 
-import org.omg.CORBA.PUBLIC_MEMBER;
-
 import java.util.Random;
 import net.jcip.examples.chapter10.DynamicOrderDeadLock.*;
 

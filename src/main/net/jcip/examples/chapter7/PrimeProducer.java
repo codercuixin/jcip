@@ -1,15 +1,9 @@
 package net.jcip.examples.chapter7;
 
-import org.omg.PortableServer.THREAD_POLICY_ID;
-
 import java.math.BigInteger;
-import java.util.List;
 import java.util.concurrent.ArrayBlockingQueue;
 import java.util.concurrent.BlockingQueue;
-import java.util.concurrent.ThreadPoolExecutor;
 import java.util.concurrent.atomic.AtomicInteger;
-
-import static java.util.concurrent.TimeUnit.SECONDS;
 
 /**
  * * @Author: cuixin

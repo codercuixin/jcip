@@ -1,9 +1,7 @@
 package net.jcip.examples.chapter10;
 
-import net.jcip.examples.chapter7.IndexingService;
-
 import java.util.concurrent.CountDownLatch;
-import java.util.concurrent.atomic.AtomicInteger;
+
 import static net.jcip.examples.chapter10.DynamicOrderDeadLock.*;
 
 /**

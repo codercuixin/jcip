@@ -1,7 +1,5 @@
 package net.jcip.examples.chapter08;
 
-import javafx.geometry.Pos;
-
 import java.util.Collections;
 import java.util.HashSet;
 import java.util.Set;

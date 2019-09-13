@@ -1,8 +1,5 @@
 package net.jcip.examples.chapter08;
 
-import javafx.geometry.Pos;
-import org.omg.PortableInterceptor.SYSTEM_EXCEPTION;
-
 import java.util.HashSet;
 import java.util.List;
 import java.util.Set;

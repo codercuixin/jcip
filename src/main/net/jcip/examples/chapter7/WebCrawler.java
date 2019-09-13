@@ -2,7 +2,6 @@ package net.jcip.examples.chapter7;
 
 import net.jcip.annotations.GuardBy;
 
-import java.io.IOException;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.*;
