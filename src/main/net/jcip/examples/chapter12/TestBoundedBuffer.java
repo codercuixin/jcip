@@ -48,4 +48,25 @@ public class TestBoundedBuffer extends TestCase {
            fail();
         }
     }
+    class Big{
+        double[] data = new double[100000];
+    }
+    public void testLeak() throws InterruptedException {
+        SemaphoreBoundedBuffer<Big> bb = new SemaphoreBoundedBuffer<>(CAPACITY);
+        long heapSize1 = snapshot();
+        for(int i=0; i<CAPACITY; i++){
+            bb.put(new Big());
+        }
+        for(int i=0; i<CAPACITY; i++){
+            bb.take();
+        }
+        long heapSize2 = snapshot();
+        assertTrue(heapSize2 - heapSize1 < THRESHOLD);
+
+
+    }
+    private long snapshot(){
+        /*Snapshot heap and return heap size*/
+        return Runtime.getRuntime().totalMemory();
+    }
 }
