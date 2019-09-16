@@ -1,6 +1,5 @@
 package net.jcip.examples.chapter11;
 
-import sun.jvm.hotspot.opto.Block;
 
 import java.util.concurrent.BlockingQueue;
 
